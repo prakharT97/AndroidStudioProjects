@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.pkt.queen">
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SpashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".songsActivity">
+        </activity>
+        <activity android:name=".queen1">
+        </activity>
+        <activity android:name=".queen2">
+        </activity>
+        <activity android:name=".wallpaperActivity">
+        </activity>
+        <activity android:name=".imgViewActivity">
+        </activity>
+        <activity android:name=".LyricsActivity">
+        </activity>
+        <activity android:name=".favoriteActivity">
+        </activity>
+    </application>
+
+</manifest>

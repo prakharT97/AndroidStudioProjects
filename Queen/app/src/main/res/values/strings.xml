@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Queen</string>
+    <string name="title_songactivity_list">Items</string>
+    <string name="title_songactivity_detail">songActivity Detail</string>
+    <string-array name="songarray">
+
+        <item>Liar</item>
+        <item>Procession</item>
+        <item>Father to son</item>
+        <item>Keep yourself alive</item>
+        <item>My fairy king</item>
+
+    </string-array>
+</resources>
